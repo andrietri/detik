@@ -1,0 +1,52 @@
+[2020-12-12 10:46:45] local.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "serve" is not defined. in /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php:676
+Stack trace:
+#0 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find('serve')
+#1 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(149): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /Users/andrietrilaksono/php-project/detik/vendor/illuminate/console/Application.php(90): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/andrietrilaksono/php-project/detik/vendor/laravel/lumen-framework/src/Console/Kernel.php(115): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/andrietrilaksono/php-project/detik/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main} {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"serve\" is not defined. at /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php:676)
+[stacktrace]
+#0 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(237): Symfony\\Component\\Console\\Application->find('serve')
+#1 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /Users/andrietrilaksono/php-project/detik/vendor/illuminate/console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/andrietrilaksono/php-project/detik/vendor/laravel/lumen-framework/src/Console/Kernel.php(115): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/andrietrilaksono/php-project/detik/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2020-12-12 23:47:57] local.ERROR: Symfony\Component\Console\Exception\NamespaceNotFoundException: There are no commands defined in the "vendor" namespace. in /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php:604
+Stack trace:
+#0 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(657): Symfony\Component\Console\Application->findNamespace('vendor')
+#1 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find('vendor:publish')
+#2 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(149): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/andrietrilaksono/php-project/detik/vendor/illuminate/console/Application.php(90): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/andrietrilaksono/php-project/detik/vendor/laravel/lumen-framework/src/Console/Kernel.php(115): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/andrietrilaksono/php-project/detik/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 {main} {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"vendor\" namespace. at /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php:604)
+[stacktrace]
+#0 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(657): Symfony\\Component\\Console\\Application->findNamespace('vendor')
+#1 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(237): Symfony\\Component\\Console\\Application->find('vendor:publish')
+#2 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/andrietrilaksono/php-project/detik/vendor/illuminate/console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/andrietrilaksono/php-project/detik/vendor/laravel/lumen-framework/src/Console/Kernel.php(115): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /Users/andrietrilaksono/php-project/detik/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2020-12-12 23:51:06] local.ERROR: Symfony\Component\Console\Exception\NamespaceNotFoundException: There are no commands defined in the "vendor" namespace. in /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php:604
+Stack trace:
+#0 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(657): Symfony\Component\Console\Application->findNamespace('vendor')
+#1 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find('vendor:publish')
+#2 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(149): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/andrietrilaksono/php-project/detik/vendor/illuminate/console/Application.php(90): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/andrietrilaksono/php-project/detik/vendor/laravel/lumen-framework/src/Console/Kernel.php(115): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/andrietrilaksono/php-project/detik/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 {main} {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"vendor\" namespace. at /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php:604)
+[stacktrace]
+#0 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(657): Symfony\\Component\\Console\\Application->findNamespace('vendor')
+#1 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(237): Symfony\\Component\\Console\\Application->find('vendor:publish')
+#2 /Users/andrietrilaksono/php-project/detik/vendor/symfony/console/Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/andrietrilaksono/php-project/detik/vendor/illuminate/console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/andrietrilaksono/php-project/detik/vendor/laravel/lumen-framework/src/Console/Kernel.php(115): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /Users/andrietrilaksono/php-project/detik/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
